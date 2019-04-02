@@ -1,0 +1,12 @@
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\bin\Debug\Lab5-TextEditor.exe.config
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\bin\Debug\Lab5-TextEditor.exe
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\bin\Debug\Lab5-TextEditor.pdb
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\bin\Debug\Lab5-TextEditor.xml
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.vbprojAssemblyReference.cache
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5_TextEditor.Resources.resources
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.vbproj.GenerateResource.cache
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.vbproj.CoreCompileInputs.cache
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.exe
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.xml
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.pdb
+C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5_TextEditor.frmTextEditor.resources
