@@ -10,3 +10,15 @@ C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextE
 C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.xml
 C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.pdb
 C:\Users\reven\source\repos\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5_TextEditor.frmTextEditor.resources
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\bin\Debug\Lab5-TextEditor.exe.config
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\bin\Debug\Lab5-TextEditor.exe
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\bin\Debug\Lab5-TextEditor.pdb
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\bin\Debug\Lab5-TextEditor.xml
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.vbprojAssemblyReference.cache
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5_TextEditor.FrmTextEditor.resources
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5_TextEditor.Resources.resources
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.vbproj.GenerateResource.cache
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.vbproj.CoreCompileInputs.cache
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.exe
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.xml
+C:\Users\reven\OneDrive\Documents\Repositories\Lab 5\Lab5\Lab5-TextEditor\Lab5-TextEditor\obj\Debug\Lab5-TextEditor.pdb

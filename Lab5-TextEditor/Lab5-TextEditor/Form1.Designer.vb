@@ -22,6 +22,7 @@ Partial Class FrmTextEditor
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.menuTextEditor = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -39,6 +40,7 @@ Partial Class FrmTextEditor
         Me.txtInput = New System.Windows.Forms.TextBox()
         Me.saveDialog = New System.Windows.Forms.SaveFileDialog()
         Me.openDialog = New System.Windows.Forms.OpenFileDialog()
+        Me.ttTextEdiot = New System.Windows.Forms.ToolTip(Me.components)
         Me.menuTextEditor.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -63,36 +65,36 @@ Partial Class FrmTextEditor
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(135, 26)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.NewToolStripMenuItem.Text = "&New"
         '
         'OpenToolStripMenuItem
         '
         Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(135, 26)
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.OpenToolStripMenuItem.Text = "&Open"
         '
         'SaveToolStripMenuItem
         '
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(135, 26)
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.SaveToolStripMenuItem.Text = "&Save"
         '
         'SaveAsToolStripMenuItem
         '
         Me.SaveAsToolStripMenuItem.Name = "SaveAsToolStripMenuItem"
-        Me.SaveAsToolStripMenuItem.Size = New System.Drawing.Size(135, 26)
+        Me.SaveAsToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.SaveAsToolStripMenuItem.Text = "Save As"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(132, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(213, 6)
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(135, 26)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'EditToolStripMenuItem
@@ -105,19 +107,19 @@ Partial Class FrmTextEditor
         'CopyToolStripMenuItem
         '
         Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
-        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(118, 26)
         Me.CopyToolStripMenuItem.Text = "&Copy"
         '
         'CutToolStripMenuItem
         '
         Me.CutToolStripMenuItem.Name = "CutToolStripMenuItem"
-        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(118, 26)
         Me.CutToolStripMenuItem.Text = "Cu&t"
         '
         'PasteToolStripMenuItem
         '
         Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
-        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(118, 26)
         Me.PasteToolStripMenuItem.Text = "&Paste"
         '
         'HelpToolStripMenuItem
@@ -130,7 +132,7 @@ Partial Class FrmTextEditor
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(125, 26)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.AboutToolStripMenuItem.Text = "&About"
         '
         'txtInput
@@ -182,4 +184,5 @@ Partial Class FrmTextEditor
     Friend WithEvents txtInput As TextBox
     Friend WithEvents saveDialog As SaveFileDialog
     Friend WithEvents openDialog As OpenFileDialog
+    Friend WithEvents ttTextEdiot As ToolTip
 End Class

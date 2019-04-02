@@ -133,4 +133,8 @@ Public Class FrmTextEditor
     Private Sub PasteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PasteToolStripMenuItem.Click
         txtInput.Paste()
     End Sub
+
+    Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
+        MsgBox("NETD 2202-01" + vbNewLine + "Scott Jenkins" + vbNewLine + "Lab 5")
+    End Sub
 End Class
