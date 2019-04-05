@@ -1,8 +1,9 @@
 ﻿Imports System.IO
 Public Class FrmTextEditor
 
-    Dim filename As String = ""
-    Dim txtChanged As Boolean = False
+    'FORM LEVEL VARIABLES
+    Dim filename As String = "" 'Stores the filename of the current project. Blank is treated as a new file
+    Dim txtChanged As Boolean = False 'Text change flag. True if anything has been edited
     Dim formIsClosing As Boolean = False
 
     'Handles Sav As Function. Public Function so it can be called by both the Save As event handler
@@ -17,7 +18,7 @@ Public Class FrmTextEditor
         End If
     End Sub
 
-
+    'Public function for closing the form. In place to insure that the program only asks if your sure if you want o close the program once and not twice when clicking exit.
     Public Function CloseForm() As Boolean
         If txtChanged = True Then
             Dim selection = MsgBox("Are you sure you want to end the program? All unsaved progress will be lost", MsgBoxStyle.YesNo Or MsgBoxStyle.Exclamation, "Warning, Unsaved Changes!")
@@ -104,10 +105,7 @@ Public Class FrmTextEditor
         txtChanged = True
     End Sub
 
-    Private Sub HelpToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HelpToolStripMenuItem.Click
-
-    End Sub
-
+    'Allows program to close gracefullly 
     Private Sub FormClose(sender As Object, e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
         If (formIsClosing = False) Then
             If txtChanged = True Then
@@ -134,6 +132,7 @@ Public Class FrmTextEditor
         txtInput.Paste()
     End Sub
 
+    'Shows the about text
     Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
         MsgBox("NETD 2202-01" + vbNewLine + "Scott Jenkins" + vbNewLine + "Lab 5")
     End Sub
